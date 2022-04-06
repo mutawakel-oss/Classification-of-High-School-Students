@@ -32,6 +32,7 @@ c)	IBM DB2
 However, R was not among the assessed three tools, therefore we cannot generalize the finding of mentioned study to other tools such as R studio.
  
 ![Sample Graph](https://github.com/mutawakel-oss/Classification-of-High-School-Students/blob/main/Picture37.png)
+
 •	Although both tools (R & SAS Enterprise Miner) were applied on the same cleansed dataset, the time taken to apply the classification in SAS is much less that the time taken to apply the classification in R. It took hours to apply the classification on the dataset which includes 175,321 rows while it took less than two minutes to run the classification models in SAS. Therefore, SAS is more efficient in classification with respect to the time required to apply classifications.
 •	A detailed discussion on the results obtained from the two tools (R & SAS Enterprise Miner) were included in the previous sections of classification on R and SAS.
 # Conclusion:
