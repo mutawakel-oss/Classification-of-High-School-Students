@@ -12,7 +12,9 @@ Following are the algorithms used to apply the classification of this research d
 
 Following is a screenshot for the created dashboard:
 ![Sample Graph](https://github.com/mutawakel-oss/Classification-of-High-School-Students/blob/main/Picture29.png)
+
 Following are the screenshots of the classification model in SAS Enterprise Miner:
+
 ![Sample Graph](https://github.com/mutawakel-oss/Classification-of-High-School-Students/blob/main/Picture30.png)
 ![Sample Graph](https://github.com/mutawakel-oss/Classification-of-High-School-Students/blob/main/Picture31.png)
 ![Sample Graph](https://github.com/mutawakel-oss/Classification-of-High-School-Students/blob/main/Picture31.png)
