@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?><_ROOT_  Location="CATALOG" Catalog="SASHELP.EMSAMP.Fimport.SOURCE" ImportType="Local" GuessRows="500"
+ Delimiter="," NameRow="Y" SkipRows="0" MaxRows="1000000" MaxCols="10000" FileType="csv"
+ Role="TRAIN" ForceRun="N" Summarize="N" AdvancedAdvisor="N" RunAction="Train" Component="FileImport"
+ IFileName="C:\Users\mutawakelm\My Drive\Data Science MSc\ASDM\Course Work\Classification\SAS Code\dataset.csv"
+ AccessTable="NoTableName" UserID="NoUserID" Password="NoPassword" RawCreateTime="1955186890.6"
+ CreateTime="15DEC2021:11:28:11" RunId="f67fd1b9-ea0c-4d28-97ce-8af8748ee13d" RawLastTimeRun="1955187151.8"
+ RawRunTime="2.521999836" LastTimeRun="15DEC2021:11:32:32" RunTime="0 Hr. 0 Min. 2.52 Sec."
+>
+<VARIABLEPROPERTIES/>
+<FILEPROPERTIES ><![CDATA[
+USERTRAINCODE
+USERSCORECODE
+USERREPORTCODE
+VARIABLESETDELTA
+DELTACODE
+]]>
+</FILEPROPERTIES></_ROOT_>

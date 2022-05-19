@@ -1,0 +1,174 @@
+NOTE: PROCEDURE PRINTTO used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+1 
+Traverser: Traverser invoked.  MPCONNECT command is sas. 
+Traverser: Beginning flow traversal 
+*------------------------------------------------------------* 
+* 
+* FIMPORT : Beginning Update 
+* datetime : 15DEC2021:11:28:50 
+* 
+*------------------------------------------------------------* 
+22719      %let emexceptionString =;
+22720      %let EMEXCEPTIONSTRING=;
+22721      *------------------------------------------------------------*;
+22722      * UPDATE: FIMPORT;
+22723      *------------------------------------------------------------*;
+22724      %let EM_ACTION = UPDATE;
+22725      %let syscc = 0;
+22726      /* Fimport.source */
+22727      %macro main;
+22728            %if %upcase(&EM_ACTION) = CREATE %then %do;
+22729               filename temp catalog 'sashelp.emsamp.Fimport_create.source';
+22730               %include temp;
+22731               filename temp;
+22732               %create;
+22733            %end;
+22734            %else
+22735            %if %upcase(&EM_ACTION) = TRAIN %then %do;
+22736               filename temp catalog 'sashelp.emsamp.Fimport_train.source';
+22737               %include temp;
+22738               filename temp;
+22739               %train;
+22740            %end;
+22741            %else
+22742            %if %upcase(&EM_ACTION) = UPDATE %then %do;
+22743               filename temp catalog 'sashelp.emsamp.Fimport_update.source';
+22744               %include temp;
+22745               filename temp;
+22746               %update;
+22747            %end;
+22748            %else
+22749            %if %upcase(&EM_ACTION) = PROPERTY %then %do;
+22750               filename temp catalog 'sashelp.emsamp.Fimport_actions.source';
+22751               %include temp;
+22752               filename temp;
+22753               %property;
+22754            %end;
+22755             %else
+22756            %if %upcase(&EM_ACTION) = SCORE %then %do;
+22757               filename temp catalog 'sashelp.emsamp.Fimport_score.source';
+22758               %include temp;
+22759               filename temp;
+22760               %score;
+22761            %end;
+22762            %else
+22763            %if %upcase(&EM_ACTION) = REPORT %then %do;
+22764               filename temp catalog 'sashelp.emsamp.Fimport_report.source';
+22765               %include temp;
+22766               filename temp;
+22767               %report;
+22768            %end;
+22769            %else
+22770            %if %upcase(&EM_ACTION) = OPENVARIABLESET %then %do;
+22771               filename temp catalog 'sashelp.emsamp.Fimport_actions.source';
+22772               %include temp;
+22773               filename temp;
+22774               %openvariableset;
+22775            %end;
+22776            %else
+22777            %if %upcase(&EM_ACTION) = CLOSEVARIABLESET %then %do;
+22778               filename temp catalog 'sashelp.emsamp.Fimport_actions.source';
+22779               %include temp;
+22780               filename temp;
+22781               %closevariableset;
+22782            %end;
+22783      %mend main;
+22784      %main;
+NOTE: %INCLUDE (level 1) file TEMP is file SASHELP.EMSAMP.FIMPORT_UPDATE.SOURCE.
+22785     +%macro update;
+22786     +    %let oldrole = %str();
+22787     +    data _null_;
+22788     +       set &em_data_exportset;
+22789     +       where NODEPORT='TRAIN';
+22790     +       call symput('oldrole', ROLE);
+22791     +    run;
+22792     +    %if &oldrole ne &em_property_role %then %do;
+22793     +        data &em_data_exportset;
+22794     +           set &em_data_exportset;
+22795     +           if NODEPORT='TRAIN' then do;
+22796     +              ROLE="&em_property_role";
+22797     +              NEEDUPDATE='Y';
+22798     +              EXPORT='Y';
+22799     +           end;
+22800     +        run;
+22801     +        filename x "&EM_NODEDIR.&EM_DSEP._updatePath.st";
+22802     +        data _null_;
+22803     +           file x;
+22804     +           put ' ';
+22805     +        run;
+22806     +        filename x;
+22807     +    %end;
+22808     +    %else %do;
+22809     +        data &em_data_exportset;
+22810     +           set &em_data_exportset;
+22811     +           if NODEPORT='TRAIN' then do;
+22812     +              ROLE="&em_property_role";
+22813     +              NEEDUPDATE='Y';
+22814     +              EXPORT='Y';
+22815     +           end;
+22816     +        run;
+22817     +    %end;
+22818     +
+22819     +    %em_getname(key=EMCMETADEFAULT, type=DATA);
+22820     +    %if %sysfunc(exist(&em_user_emcmetadefault)) and ^%sysfunc(exist(&em_lib..&em_nodeid._CMETA_TRAIN)) %then %do;
+22821     +        data &em_lib..&em_nodeid._CMETA_TRAIN;
+22822     +           set &em_user_emcmetadefault;
+22823     +           drop DROP;
+22824     +           where DROP='N';
+22825     +        run;
+22826     +    %end;
+22827     +
+22828     +%mend update;
+22829     +
+22830     +
+22831     +
+22832     +
+NOTE: %INCLUDE (level 1) ending.
+NOTE: Fileref TEMP has been deassigned.
+
+NOTE: There were 1 observations read from the data set EMWS1.FIMPORT_EXPORTSET.
+      WHERE NODEPORT='TRAIN';
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+
+NOTE: There were 6 observations read from the data set EMWS1.FIMPORT_EXPORTSET.
+NOTE: The data set EMWS1.FIMPORT_EXPORTSET has 6 observations and 18 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+22833      *------------------------------------------------------------*;
+22834      * End UPDATE: FIMPORT;
+22835      *------------------------------------------------------------*;
+
+22836      %em_delMacro;
+
+22838      %let _HPDMGRIDHOST=;
+22839      %let _HPDMGRIDINSTALLLOC=;
+22840      %let _HPDMGRIDDATASERVER=;
+22841      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* FIMPORT : End Update 
+* datetime : 15DEC2021:11:28:50 
+* 
+*------------------------------------------------------------* 
+Traverser: Run Completed 
+22842      proc printto;
+22843      run;
+

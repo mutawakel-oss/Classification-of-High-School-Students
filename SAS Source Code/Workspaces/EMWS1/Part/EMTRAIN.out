@@ -1,0 +1,24 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Variable Summary
+
+          Measurement    Frequency
+ Role        Level         Count
+
+INPUT      INTERVAL          6    
+TARGET     INTERVAL          1    
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Partition Summary
+
+                                     Number of
+Type             Data Set          Observations
+
+DATA        EMWS1.FIMPORT_train       175321   
+TRAIN       EMWS1.Part_TRAIN          105193   
+VALIDATE    EMWS1.Part_VALIDATE        35064   
+TEST        EMWS1.Part_TEST            35064   

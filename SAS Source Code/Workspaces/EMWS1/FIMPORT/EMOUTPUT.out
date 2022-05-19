@@ -1,0 +1,86 @@
+*------------------------------------------------------------*
+User:                mutawakelm
+Date:                December 15, 2021
+Time:                11:32:34
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+ Role        Level         Count
+ 
+INPUT      INTERVAL          6
+TARGET     INTERVAL          1
+ 
+ 
+ 
+ 
+ 
+The CONTENTS Procedure
+ 
+Data Set Name        EMWS1.FIMPORT_DATA            Observations          175321
+Member Type          DATA                          Variables             7
+Engine               V9                            Indexes               0
+Created              12/15/2021 11:32:33           Observation Length    56
+Last Modified        12/15/2021 11:32:33           Deleted Observations  0
+Protection                                         Compressed            NO
+Data Set Type                                      Sorted                NO
+Label
+Data Representation  WINDOWS_32
+Encoding             wlatin1  Western (Windows)
+ 
+ 
+                                                               Engine/Host Dependent Information
+ 
+Data Set Page Size          65536
+Number of Data Set Pages    151
+First Data Page             1
+Max Obs per Page            1167
+Obs in First Data Page      1136
+Number of Data Set Repairs  0
+ExtendObsCounter            YES
+Filename                    C:\Users\mutawakelm\My Drive\Data Science MSc\ASDM\Course Work\Classification\SAS Code\Second\Workspaces\EMWS1\fimport_data.sas7bdat
+Release Created             9.0401M5
+Host Created                W32_10PRO
+Owner Name                  DESKTOP-DJU2A5B\mutawakelm
+File Size                   10MB
+File Size (bytes)           9961472
+ 
+ 
+    Alphabetic List of Variables and Attributes
+ 
+#    Variable    Type    Len    Format     Informat
+ 
+7    final       Num       8    BEST12.    BEST32.
+2    nat         Num       8    BEST12.    BEST32.
+3    scho        Num       8    BEST12.    BEST32.
+1    sec         Num       8    BEST12.    BEST32.
+5    sect        Num       8    BEST12.    BEST32.
+6    study       Num       8    BEST12.    BEST32.
+4    town        Num       8    BEST12.    BEST32.
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Exported Attributes for TRAIN Port
+ 
+          Measurement    Frequency
+ Role        Level         Count
+ 
+INPUT      INTERVAL          6
+TARGET     INTERVAL          1

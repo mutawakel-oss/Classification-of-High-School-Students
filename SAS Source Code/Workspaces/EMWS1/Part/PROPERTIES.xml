@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?><_ROOT_  Method="DEFAULT" TrainPct="60" ValidatePct="20" TestPct="20" RandomSeed="12345" OutputType="DATA"
+ IntervalDistribution="Y" ClassDistribution="Y" ForceRun="N" RunAction="Train" Component="Partition"
+ RawCreateTime="1955187029.7" CreateTime="15DEC2021:11:30:30" RunId="5d54e87d-adca-4373-98d0-7b3129149e79"
+>
+<VARIABLEPROPERTIES/>
+<FILEPROPERTIES/>
+</_ROOT_>

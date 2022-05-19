@@ -1,0 +1,23 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Variable Summary
+
+          Measurement    Frequency
+Role         Level         Count
+
+ID         INTERVAL          1    
+INPUT      INTERVAL          6    
+TARGET     INTERVAL          1    
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Predicted and decision variables
+
+Type         Variable         Label
+
+TARGET       final                       
+PREDICTED    P_final     Predicted: final
+RESIDUAL     R_final     Residual: final 

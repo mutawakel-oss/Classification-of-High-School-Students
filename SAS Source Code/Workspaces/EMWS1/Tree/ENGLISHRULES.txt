@@ -1,0 +1,1550 @@
+*------------------------------------------------------------*
+ Node = 55
+*------------------------------------------------------------*
+if town >= 35.5
+AND study >= 3.5
+AND sec < 88.405 AND sec >= 85.705
+then 
+ Tree Node Identifier   = 55
+ Number of Observations = 751
+ Predicted: final = 5.0825565912
+ 
+*------------------------------------------------------------*
+ Node = 60
+*------------------------------------------------------------*
+if study < 2.5
+AND sec >= 90.845 or MISSING
+then 
+ Tree Node Identifier   = 60
+ Number of Observations = 48
+ Predicted: final = 5.2916666667
+ 
+*------------------------------------------------------------*
+ Node = 64
+*------------------------------------------------------------*
+if study < 4 or MISSING
+AND sect < 8.5 or MISSING
+AND sec < 0.305
+AND nat < 34
+then 
+ Tree Node Identifier   = 64
+ Number of Observations = 263
+ Predicted: final = 5.8707224335
+ 
+*------------------------------------------------------------*
+ Node = 65
+*------------------------------------------------------------*
+if study >= 4
+AND sect < 8.5 or MISSING
+AND sec < 0.305
+AND nat < 34
+then 
+ Tree Node Identifier   = 65
+ Number of Observations = 14
+ Predicted: final = 5.2142857143
+ 
+*------------------------------------------------------------*
+ Node = 66
+*------------------------------------------------------------*
+if study < 2.5
+AND sect < 8.5 or MISSING
+AND sec < 0.305
+AND nat >= 34 or MISSING
+then 
+ Tree Node Identifier   = 66
+ Number of Observations = 37
+ Predicted: final = 4.3243243243
+ 
+*------------------------------------------------------------*
+ Node = 67
+*------------------------------------------------------------*
+if study >= 2.5 or MISSING
+AND sect < 8.5 or MISSING
+AND sec < 0.305
+AND nat >= 34 or MISSING
+then 
+ Tree Node Identifier   = 67
+ Number of Observations = 442
+ Predicted: final = 5.3303167421
+ 
+*------------------------------------------------------------*
+ Node = 68
+*------------------------------------------------------------*
+if town < 20.5
+AND sect >= 8.5
+AND sec < 0.305
+then 
+ Tree Node Identifier   = 68
+ Number of Observations = 49
+ Predicted: final = 4.9387755102
+ 
+*------------------------------------------------------------*
+ Node = 71
+*------------------------------------------------------------*
+if town >= 40.5
+AND sect >= 8.5
+AND sec < 0.305
+then 
+ Tree Node Identifier   = 71
+ Number of Observations = 103
+ Predicted: final = 4.6796116505
+ 
+*------------------------------------------------------------*
+ Node = 76
+*------------------------------------------------------------*
+if study < 2.5
+AND sec < 68.245 AND sec >= 66.375
+then 
+ Tree Node Identifier   = 76
+ Number of Observations = 326
+ Predicted: final = 3.3987730061
+ 
+*------------------------------------------------------------*
+ Node = 78
+*------------------------------------------------------------*
+if study < 2.5
+AND sec < 71.305 AND sec >= 68.245 or MISSING
+then 
+ Tree Node Identifier   = 78
+ Number of Observations = 629
+ Predicted: final = 3.6645468998
+ 
+*------------------------------------------------------------*
+ Node = 80
+*------------------------------------------------------------*
+if study < 2.5
+AND sec < 73.045 AND sec >= 71.305 or MISSING
+then 
+ Tree Node Identifier   = 80
+ Number of Observations = 313
+ Predicted: final = 3.8370607029
+ 
+*------------------------------------------------------------*
+ Node = 81
+*------------------------------------------------------------*
+if study < 2.5
+AND sec < 74.49 AND sec >= 73.045
+then 
+ Tree Node Identifier   = 81
+ Number of Observations = 214
+ Predicted: final = 3.9719626168
+ 
+*------------------------------------------------------------*
+ Node = 83
+*------------------------------------------------------------*
+if study >= 4.5
+AND sec < 74.49 AND sec >= 71.305 or MISSING
+then 
+ Tree Node Identifier   = 83
+ Number of Observations = 1230
+ Predicted: final = 4.0146341463
+ 
+*------------------------------------------------------------*
+ Node = 84
+*------------------------------------------------------------*
+if study < 2.5
+AND sec < 76.965 AND sec >= 74.49
+then 
+ Tree Node Identifier   = 84
+ Number of Observations = 326
+ Predicted: final = 4.0889570552
+ 
+*------------------------------------------------------------*
+ Node = 86
+*------------------------------------------------------------*
+if town < 35.5 or MISSING
+AND study >= 4.5
+AND sec < 76.965 AND sec >= 74.49
+then 
+ Tree Node Identifier   = 86
+ Number of Observations = 635
+ Predicted: final = 4.137007874
+ 
+*------------------------------------------------------------*
+ Node = 88
+*------------------------------------------------------------*
+if study < 2.5
+AND sec < 78.6 AND sec >= 76.965
+then 
+ Tree Node Identifier   = 88
+ Number of Observations = 218
+ Predicted: final = 4.1972477064
+ 
+*------------------------------------------------------------*
+ Node = 90
+*------------------------------------------------------------*
+if study < 2.5
+AND sec < 80.305 AND sec >= 78.6 or MISSING
+then 
+ Tree Node Identifier   = 90
+ Number of Observations = 210
+ Predicted: final = 4.480952381
+ 
+*------------------------------------------------------------*
+ Node = 92
+*------------------------------------------------------------*
+if study >= 4.5
+AND sec < 77.92 AND sec >= 76.965 or MISSING
+then 
+ Tree Node Identifier   = 92
+ Number of Observations = 463
+ Predicted: final = 4.2591792657
+ 
+*------------------------------------------------------------*
+ Node = 94
+*------------------------------------------------------------*
+if town < 38.5 or MISSING
+AND study >= 4.5
+AND sec < 80.305 AND sec >= 78.735
+then 
+ Tree Node Identifier   = 94
+ Number of Observations = 566
+ Predicted: final = 4.4699646643
+ 
+*------------------------------------------------------------*
+ Node = 101
+*------------------------------------------------------------*
+if town >= 35.5
+AND study >= 4.5
+AND sec < 82.545 AND sec >= 80.305
+then 
+ Tree Node Identifier   = 101
+ Number of Observations = 556
+ Predicted: final = 4.7877697842
+ 
+*------------------------------------------------------------*
+ Node = 104
+*------------------------------------------------------------*
+if study < 2.5
+AND sec < 87.49 AND sec >= 85.705 or MISSING
+then 
+ Tree Node Identifier   = 104
+ Number of Observations = 87
+ Predicted: final = 4.7931034483
+ 
+*------------------------------------------------------------*
+ Node = 106
+*------------------------------------------------------------*
+if study < 2.5
+AND sec < 88.405 AND sec >= 87.49
+then 
+ Tree Node Identifier   = 106
+ Number of Observations = 35
+ Predicted: final = 4.9142857143
+ 
+*------------------------------------------------------------*
+ Node = 109
+*------------------------------------------------------------*
+if town < 35.5 or MISSING
+AND study >= 3.5
+AND sec < 88.405 AND sec >= 87.24
+then 
+ Tree Node Identifier   = 109
+ Number of Observations = 453
+ Predicted: final = 5.0353200883
+ 
+*------------------------------------------------------------*
+ Node = 112
+*------------------------------------------------------------*
+if study < 2.5
+AND sec < 89.355 AND sec >= 88.405
+then 
+ Tree Node Identifier   = 112
+ Number of Observations = 22
+ Predicted: final = 5.1363636364
+ 
+*------------------------------------------------------------*
+ Node = 113
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sec < 89.355 AND sec >= 88.405
+then 
+ Tree Node Identifier   = 113
+ Number of Observations = 2260
+ Predicted: final = 5.5845132743
+ 
+*------------------------------------------------------------*
+ Node = 114
+*------------------------------------------------------------*
+if study < 3.5 or MISSING
+AND sec < 90.015 AND sec >= 89.355
+then 
+ Tree Node Identifier   = 114
+ Number of Observations = 1753
+ Predicted: final = 5.71306332
+ 
+*------------------------------------------------------------*
+ Node = 119
+*------------------------------------------------------------*
+if town >= 39.5 or MISSING
+AND study >= 3.5
+AND sec < 90.845 AND sec >= 88.405
+then 
+ Tree Node Identifier   = 119
+ Number of Observations = 223
+ Predicted: final = 5.2376681614
+ 
+*------------------------------------------------------------*
+ Node = 127
+*------------------------------------------------------------*
+if study >= 3.5
+AND sec >= 94.805 or MISSING
+then 
+ Tree Node Identifier   = 127
+ Number of Observations = 423
+ Predicted: final = 5.9172576832
+ 
+*------------------------------------------------------------*
+ Node = 130
+*------------------------------------------------------------*
+if town < 22 AND town >= 20.5
+AND sect >= 8.5
+AND sec < 0.305
+then 
+ Tree Node Identifier   = 130
+ Number of Observations = 58
+ Predicted: final = 4.1034482759
+ 
+*------------------------------------------------------------*
+ Node = 131
+*------------------------------------------------------------*
+if town < 31.5 AND town >= 22 or MISSING
+AND sect >= 8.5
+AND sec < 0.305
+then 
+ Tree Node Identifier   = 131
+ Number of Observations = 77
+ Predicted: final = 4.5584415584
+ 
+*------------------------------------------------------------*
+ Node = 132
+*------------------------------------------------------------*
+if town < 40.5 AND town >= 31.5 or MISSING
+AND study < 2.5
+AND sect >= 8.5
+AND sec < 0.305
+then 
+ Tree Node Identifier   = 132
+ Number of Observations = 11
+ Predicted: final = 4.4545454545
+ 
+*------------------------------------------------------------*
+ Node = 134
+*------------------------------------------------------------*
+if sec < 20.5 AND sec >= 0.305
+then 
+ Tree Node Identifier   = 134
+ Number of Observations = 11
+ Predicted: final = 1
+ 
+*------------------------------------------------------------*
+ Node = 138
+*------------------------------------------------------------*
+if study < 2.5
+AND sec < 65.17 AND sec >= 63.05 or MISSING
+then 
+ Tree Node Identifier   = 138
+ Number of Observations = 316
+ Predicted: final = 3.1392405063
+ 
+*------------------------------------------------------------*
+ Node = 139
+*------------------------------------------------------------*
+if study < 2.5
+AND sec < 66.375 AND sec >= 65.17
+then 
+ Tree Node Identifier   = 139
+ Number of Observations = 214
+ Predicted: final = 3.285046729
+ 
+*------------------------------------------------------------*
+ Node = 140
+*------------------------------------------------------------*
+if study >= 2.5 or MISSING
+AND sec < 64.955 AND sec >= 63.05 or MISSING
+then 
+ Tree Node Identifier   = 140
+ Number of Observations = 2365
+ Predicted: final = 3.3598308668
+ 
+*------------------------------------------------------------*
+ Node = 141
+*------------------------------------------------------------*
+if study >= 2.5 or MISSING
+AND sec < 66.375 AND sec >= 64.955
+then 
+ Tree Node Identifier   = 141
+ Number of Observations = 2163
+ Predicted: final = 3.4988441979
+ 
+*------------------------------------------------------------*
+ Node = 143
+*------------------------------------------------------------*
+if town >= 40.5
+AND study >= 2.5 or MISSING
+AND sec < 68.245 AND sec >= 66.375
+then 
+ Tree Node Identifier   = 143
+ Number of Observations = 1046
+ Predicted: final = 3.6252390057
+ 
+*------------------------------------------------------------*
+ Node = 144
+*------------------------------------------------------------*
+if study >= 2.5 or MISSING
+AND sec < 69.27 AND sec >= 68.245
+then 
+ Tree Node Identifier   = 144
+ Number of Observations = 1952
+ Predicted: final = 3.8637295082
+ 
+*------------------------------------------------------------*
+ Node = 152
+*------------------------------------------------------------*
+if town < 36.5 AND town >= 35.5
+AND study >= 4.5
+AND sec < 76.965 AND sec >= 74.49
+then 
+ Tree Node Identifier   = 152
+ Number of Observations = 27
+ Predicted: final = 4.6296296296
+ 
+*------------------------------------------------------------*
+ Node = 153
+*------------------------------------------------------------*
+if town >= 36.5 or MISSING
+AND study >= 4.5
+AND sec < 76.965 AND sec >= 74.49
+then 
+ Tree Node Identifier   = 153
+ Number of Observations = 527
+ Predicted: final = 4.2030360531
+ 
+*------------------------------------------------------------*
+ Node = 154
+*------------------------------------------------------------*
+if study < 4.5 AND study >= 2.5 or MISSING
+AND sec < 77.95 AND sec >= 76.965 or MISSING
+then 
+ Tree Node Identifier   = 154
+ Number of Observations = 2365
+ Predicted: final = 4.5822410148
+ 
+*------------------------------------------------------------*
+ Node = 155
+*------------------------------------------------------------*
+if study < 4.5 AND study >= 2.5 or MISSING
+AND sec < 78.6 AND sec >= 77.95
+then 
+ Tree Node Identifier   = 155
+ Number of Observations = 1549
+ Predicted: final = 4.6642995481
+ 
+*------------------------------------------------------------*
+ Node = 156
+*------------------------------------------------------------*
+if study < 4.5 AND study >= 2.5 or MISSING
+AND sec < 79.015 AND sec >= 78.6
+then 
+ Tree Node Identifier   = 156
+ Number of Observations = 1025
+ Predicted: final = 4.716097561
+ 
+*------------------------------------------------------------*
+ Node = 157
+*------------------------------------------------------------*
+if study < 4.5 AND study >= 2.5 or MISSING
+AND sec < 80.305 AND sec >= 79.015 or MISSING
+then 
+ Tree Node Identifier   = 157
+ Number of Observations = 3149
+ Predicted: final = 4.7970784376
+ 
+*------------------------------------------------------------*
+ Node = 158
+*------------------------------------------------------------*
+if town < 38.5 or MISSING
+AND study >= 4.5
+AND sec < 78.735 AND sec >= 77.92
+then 
+ Tree Node Identifier   = 158
+ Number of Observations = 268
+ Predicted: final = 4.3320895522
+ 
+*------------------------------------------------------------*
+ Node = 159
+*------------------------------------------------------------*
+if town >= 38.5
+AND study >= 4.5
+AND sec < 78.735 AND sec >= 77.92
+then 
+ Tree Node Identifier   = 159
+ Number of Observations = 136
+ Predicted: final = 4.5367647059
+ 
+*------------------------------------------------------------*
+ Node = 162
+*------------------------------------------------------------*
+if town < 41.5 AND town >= 38.5
+AND study >= 4.5
+AND sec < 80.305 AND sec >= 78.735
+then 
+ Tree Node Identifier   = 162
+ Number of Observations = 58
+ Predicted: final = 4.9137931034
+ 
+*------------------------------------------------------------*
+ Node = 163
+*------------------------------------------------------------*
+if town >= 41.5 or MISSING
+AND study >= 4.5
+AND sec < 80.305 AND sec >= 78.735
+then 
+ Tree Node Identifier   = 163
+ Number of Observations = 240
+ Predicted: final = 4.5875
+ 
+*------------------------------------------------------------*
+ Node = 164
+*------------------------------------------------------------*
+if study < 2.5
+AND sec < 82.745 AND sec >= 80.305
+AND scho < 1976 or MISSING
+then 
+ Tree Node Identifier   = 164
+ Number of Observations = 171
+ Predicted: final = 4.649122807
+ 
+*------------------------------------------------------------*
+ Node = 166
+*------------------------------------------------------------*
+if study < 4.5 AND study >= 2.5 or MISSING
+AND sec < 81.115 AND sec >= 80.305
+then 
+ Tree Node Identifier   = 166
+ Number of Observations = 2122
+ Predicted: final = 4.8854853911
+ 
+*------------------------------------------------------------*
+ Node = 167
+*------------------------------------------------------------*
+if study < 4.5 AND study >= 2.5 or MISSING
+AND sec < 82.745 AND sec >= 81.115 or MISSING
+then 
+ Tree Node Identifier   = 167
+ Number of Observations = 4158
+ Predicted: final = 4.9574314574
+ 
+*------------------------------------------------------------*
+ Node = 168
+*------------------------------------------------------------*
+if study < 2.5
+AND sec < 85.705 AND sec >= 82.745 or MISSING
+AND scho < 1994.5 or MISSING
+then 
+ Tree Node Identifier   = 168
+ Number of Observations = 145
+ Predicted: final = 4.8275862069
+ 
+*------------------------------------------------------------*
+ Node = 172
+*------------------------------------------------------------*
+if town < 5.5
+AND study >= 4.5
+AND sec < 82.545 AND sec >= 80.305
+then 
+ Tree Node Identifier   = 172
+ Number of Observations = 44
+ Predicted: final = 4.9545454545
+ 
+*------------------------------------------------------------*
+ Node = 173
+*------------------------------------------------------------*
+if town < 35.5 AND town >= 5.5 or MISSING
+AND study >= 4.5
+AND sec < 82.545 AND sec >= 80.305
+then 
+ Tree Node Identifier   = 173
+ Number of Observations = 745
+ Predicted: final = 4.6295302013
+ 
+*------------------------------------------------------------*
+ Node = 176
+*------------------------------------------------------------*
+if town >= 35.5
+AND study >= 4.5
+AND sec < 85.705 AND sec >= 82.545 or MISSING
+AND scho < 1856 or MISSING
+then 
+ Tree Node Identifier   = 176
+ Number of Observations = 676
+ Predicted: final = 4.949704142
+ 
+*------------------------------------------------------------*
+ Node = 180
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sec < 88.115 AND sec >= 87.49 or MISSING
+then 
+ Tree Node Identifier   = 180
+ Number of Observations = 1549
+ Predicted: final = 5.4073595868
+ 
+*------------------------------------------------------------*
+ Node = 181
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sec < 88.405 AND sec >= 88.115
+then 
+ Tree Node Identifier   = 181
+ Number of Observations = 675
+ Predicted: final = 5.5051851852
+ 
+*------------------------------------------------------------*
+ Node = 188
+*------------------------------------------------------------*
+if study < 2.5
+AND sec < 90.845 AND sec >= 90.015 or MISSING
+then 
+ Tree Node Identifier   = 188
+ Number of Observations = 14
+ Predicted: final = 5.2142857143
+ 
+*------------------------------------------------------------*
+ Node = 189
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sec < 90.845 AND sec >= 90.015 or MISSING
+then 
+ Tree Node Identifier   = 189
+ Number of Observations = 2155
+ Predicted: final = 5.8218097448
+ 
+*------------------------------------------------------------*
+ Node = 190
+*------------------------------------------------------------*
+if town < 20.5
+AND study >= 3.5
+AND sect < 8.5
+AND sec < 90.845 AND sec >= 88.405
+then 
+ Tree Node Identifier   = 190
+ Number of Observations = 8
+ Predicted: final = 4.125
+ 
+*------------------------------------------------------------*
+ Node = 191
+*------------------------------------------------------------*
+if town < 37.5 AND town >= 20.5 or MISSING
+AND study >= 3.5
+AND sect < 8.5
+AND sec < 90.845 AND sec >= 88.405
+then 
+ Tree Node Identifier   = 191
+ Number of Observations = 129
+ Predicted: final = 4.992248062
+ 
+*------------------------------------------------------------*
+ Node = 192
+*------------------------------------------------------------*
+if town < 37.5 or MISSING
+AND study >= 3.5
+AND sect >= 8.5 or MISSING
+AND sec < 89.37 AND sec >= 88.405
+then 
+ Tree Node Identifier   = 192
+ Number of Observations = 314
+ Predicted: final = 5.0987261146
+ 
+*------------------------------------------------------------*
+ Node = 193
+*------------------------------------------------------------*
+if town < 37.5 or MISSING
+AND study >= 3.5
+AND sect >= 8.5 or MISSING
+AND sec < 90.845 AND sec >= 89.37 or MISSING
+then 
+ Tree Node Identifier   = 193
+ Number of Observations = 530
+ Predicted: final = 5.2679245283
+ 
+*------------------------------------------------------------*
+ Node = 196
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sec < 91.535 AND sec >= 90.845
+then 
+ Tree Node Identifier   = 196
+ Number of Observations = 1818
+ Predicted: final = 5.8872387239
+ 
+*------------------------------------------------------------*
+ Node = 197
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sec < 92.455 AND sec >= 91.535 or MISSING
+then 
+ Tree Node Identifier   = 197
+ Number of Observations = 2316
+ Predicted: final = 5.9365284974
+ 
+*------------------------------------------------------------*
+ Node = 198
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sec < 94.1 AND sec >= 92.455
+then 
+ Tree Node Identifier   = 198
+ Number of Observations = 4201
+ Predicted: final = 5.9692930255
+ 
+*------------------------------------------------------------*
+ Node = 202
+*------------------------------------------------------------*
+if town < 39.5 AND town >= 37.5
+AND study >= 3.5
+AND sec < 93.5 AND sec >= 90.845 or MISSING
+then 
+ Tree Node Identifier   = 202
+ Number of Observations = 59
+ Predicted: final = 5.9661016949
+ 
+*------------------------------------------------------------*
+ Node = 203
+*------------------------------------------------------------*
+if town >= 39.5 or MISSING
+AND study >= 3.5
+AND sec < 93.5 AND sec >= 90.845 or MISSING
+then 
+ Tree Node Identifier   = 203
+ Number of Observations = 149
+ Predicted: final = 5.644295302
+ 
+*------------------------------------------------------------*
+ Node = 204
+*------------------------------------------------------------*
+if study >= 3.5
+AND sect < 8.5
+AND sec < 94.805 AND sec >= 93.5
+then 
+ Tree Node Identifier   = 204
+ Number of Observations = 65
+ Predicted: final = 5.5692307692
+ 
+*------------------------------------------------------------*
+ Node = 212
+*------------------------------------------------------------*
+if town < 40.5 AND town >= 31.5 or MISSING
+AND study >= 2.5 or MISSING
+AND sect >= 8.5
+AND sec < 0.305
+AND nat < 41.5
+then 
+ Tree Node Identifier   = 212
+ Number of Observations = 16
+ Predicted: final = 5.8125
+ 
+*------------------------------------------------------------*
+ Node = 213
+*------------------------------------------------------------*
+if town < 40.5 AND town >= 31.5 or MISSING
+AND study >= 2.5 or MISSING
+AND sect >= 8.5
+AND sec < 0.305
+AND nat >= 41.5 or MISSING
+then 
+ Tree Node Identifier   = 213
+ Number of Observations = 88
+ Predicted: final = 5.3068181818
+ 
+*------------------------------------------------------------*
+ Node = 214
+*------------------------------------------------------------*
+if sect < 8.5 or MISSING
+AND sec < 56.925 AND sec >= 20.5 or MISSING
+then 
+ Tree Node Identifier   = 214
+ Number of Observations = 208
+ Predicted: final = 2.6682692308
+ 
+*------------------------------------------------------------*
+ Node = 215
+*------------------------------------------------------------*
+if sect >= 8.5
+AND sec < 56.925 AND sec >= 20.5 or MISSING
+then 
+ Tree Node Identifier   = 215
+ Number of Observations = 36
+ Predicted: final = 3.1388888889
+ 
+*------------------------------------------------------------*
+ Node = 222
+*------------------------------------------------------------*
+if town < 34.5 or MISSING
+AND study >= 2.5 or MISSING
+AND sec < 68.245 AND sec >= 66.375
+then 
+ Tree Node Identifier   = 222
+ Number of Observations = 1226
+ Predicted: final = 3.6721044046
+ 
+*------------------------------------------------------------*
+ Node = 223
+*------------------------------------------------------------*
+if town < 40.5 AND town >= 34.5
+AND study >= 2.5 or MISSING
+AND sec < 68.245 AND sec >= 66.375
+then 
+ Tree Node Identifier   = 223
+ Number of Observations = 917
+ Predicted: final = 3.8386041439
+ 
+*------------------------------------------------------------*
+ Node = 229
+*------------------------------------------------------------*
+if study >= 4.5
+AND sec < 71.305 AND sec >= 69.27 or MISSING
+then 
+ Tree Node Identifier   = 229
+ Number of Observations = 711
+ Predicted: final = 3.8720112518
+ 
+*------------------------------------------------------------*
+ Node = 230
+*------------------------------------------------------------*
+if town < 33.5
+AND study < 4.5 AND study >= 2.5 or MISSING
+AND sec < 72.515 AND sec >= 71.305
+then 
+ Tree Node Identifier   = 230
+ Number of Observations = 901
+ Predicted: final = 4.0566037736
+ 
+*------------------------------------------------------------*
+ Node = 233
+*------------------------------------------------------------*
+if study < 4.5 AND study >= 2.5 or MISSING
+AND sect >= 8.5
+AND sec < 74.49 AND sec >= 72.515 or MISSING
+then 
+ Tree Node Identifier   = 233
+ Number of Observations = 609
+ Predicted: final = 4.1280788177
+ 
+*------------------------------------------------------------*
+ Node = 236
+*------------------------------------------------------------*
+if study < 4.5 AND study >= 2.5 or MISSING
+AND sect < 8.5 or MISSING
+AND sec < 75.415 AND sec >= 74.49
+then 
+ Tree Node Identifier   = 236
+ Number of Observations = 1770
+ Predicted: final = 4.3163841808
+ 
+*------------------------------------------------------------*
+ Node = 239
+*------------------------------------------------------------*
+if study < 4.5 AND study >= 2.5 or MISSING
+AND sec < 76.965 AND sec >= 75.415 or MISSING
+AND scho >= 66.5 or MISSING
+then 
+ Tree Node Identifier   = 239
+ Number of Observations = 3416
+ Predicted: final = 4.4192037471
+ 
+*------------------------------------------------------------*
+ Node = 242
+*------------------------------------------------------------*
+if town < 32.5
+AND study < 2.5
+AND sec < 82.745 AND sec >= 80.305
+AND scho >= 1976
+then 
+ Tree Node Identifier   = 242
+ Number of Observations = 32
+ Predicted: final = 4.625
+ 
+*------------------------------------------------------------*
+ Node = 245
+*------------------------------------------------------------*
+if town >= 35.5
+AND study < 2.5
+AND sec < 85.705 AND sec >= 82.745 or MISSING
+AND scho >= 1994.5
+then 
+ Tree Node Identifier   = 245
+ Number of Observations = 15
+ Predicted: final = 4.8666666667
+ 
+*------------------------------------------------------------*
+ Node = 247
+*------------------------------------------------------------*
+if study < 4.5 AND study >= 2.5 or MISSING
+AND sect >= 8.5
+AND sec < 84.525 AND sec >= 82.745 or MISSING
+then 
+ Tree Node Identifier   = 247
+ Number of Observations = 596
+ Predicted: final = 4.9798657718
+ 
+*------------------------------------------------------------*
+ Node = 248
+*------------------------------------------------------------*
+if study < 4.5 AND study >= 2.5 or MISSING
+AND sect < 8.5 or MISSING
+AND sec < 85.705 AND sec >= 84.525
+then 
+ Tree Node Identifier   = 248
+ Number of Observations = 2640
+ Predicted: final = 5.1196969697
+ 
+*------------------------------------------------------------*
+ Node = 249
+*------------------------------------------------------------*
+if study < 4.5 AND study >= 2.5 or MISSING
+AND sect >= 8.5
+AND sec < 85.705 AND sec >= 84.525
+then 
+ Tree Node Identifier   = 249
+ Number of Observations = 314
+ Predicted: final = 5.0318471338
+ 
+*------------------------------------------------------------*
+ Node = 250
+*------------------------------------------------------------*
+if town < 35.5 or MISSING
+AND study >= 4.5
+AND sec < 84.095 AND sec >= 82.545 or MISSING
+AND scho < 2438.5 or MISSING
+then 
+ Tree Node Identifier   = 250
+ Number of Observations = 576
+ Predicted: final = 4.7760416667
+ 
+*------------------------------------------------------------*
+ Node = 251
+*------------------------------------------------------------*
+if town < 35.5 or MISSING
+AND study >= 4.5
+AND sec < 85.705 AND sec >= 84.095
+AND scho < 2438.5 or MISSING
+then 
+ Tree Node Identifier   = 251
+ Number of Observations = 574
+ Predicted: final = 4.8850174216
+ 
+*------------------------------------------------------------*
+ Node = 252
+*------------------------------------------------------------*
+if town < 35.5 or MISSING
+AND study >= 4.5
+AND sec < 85.705 AND sec >= 82.545 or MISSING
+AND scho < 2449 AND scho >= 2438.5
+then 
+ Tree Node Identifier   = 252
+ Number of Observations = 20
+ Predicted: final = 4
+ 
+*------------------------------------------------------------*
+ Node = 253
+*------------------------------------------------------------*
+if town < 35.5 or MISSING
+AND study >= 4.5
+AND sec < 85.705 AND sec >= 82.545 or MISSING
+AND scho >= 2449 or MISSING
+then 
+ Tree Node Identifier   = 253
+ Number of Observations = 23
+ Predicted: final = 5
+ 
+*------------------------------------------------------------*
+ Node = 254
+*------------------------------------------------------------*
+if town >= 35.5
+AND study >= 4.5
+AND sec < 85.545 AND sec >= 82.545 or MISSING
+AND scho >= 1856
+then 
+ Tree Node Identifier   = 254
+ Number of Observations = 290
+ Predicted: final = 5
+ 
+*------------------------------------------------------------*
+ Node = 255
+*------------------------------------------------------------*
+if town >= 35.5
+AND study >= 4.5
+AND sec < 85.705 AND sec >= 85.545
+AND scho >= 1856
+then 
+ Tree Node Identifier   = 255
+ Number of Observations = 10
+ Predicted: final = 5.2
+ 
+*------------------------------------------------------------*
+ Node = 256
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sec < 86.66 AND sec >= 85.705 or MISSING
+AND scho < 214.5
+then 
+ Tree Node Identifier   = 256
+ Number of Observations = 243
+ Predicted: final = 5.3456790123
+ 
+*------------------------------------------------------------*
+ Node = 257
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sec < 86.66 AND sec >= 85.705 or MISSING
+AND scho >= 214.5 or MISSING
+then 
+ Tree Node Identifier   = 257
+ Number of Observations = 2183
+ Predicted: final = 5.195602382
+ 
+*------------------------------------------------------------*
+ Node = 258
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sect < 8.5 or MISSING
+AND sec < 87.49 AND sec >= 86.66
+then 
+ Tree Node Identifier   = 258
+ Number of Observations = 1760
+ Predicted: final = 5.3318181818
+ 
+*------------------------------------------------------------*
+ Node = 259
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sect >= 8.5
+AND sec < 87.49 AND sec >= 86.66
+then 
+ Tree Node Identifier   = 259
+ Number of Observations = 197
+ Predicted: final = 5.1776649746
+ 
+*------------------------------------------------------------*
+ Node = 260
+*------------------------------------------------------------*
+if town < 35.5 or MISSING
+AND study >= 3.5
+AND sect < 8.5
+AND sec < 87.24 AND sec >= 85.705 or MISSING
+AND scho < 2438.5 or MISSING
+then 
+ Tree Node Identifier   = 260
+ Number of Observations = 106
+ Predicted: final = 4.8679245283
+ 
+*------------------------------------------------------------*
+ Node = 261
+*------------------------------------------------------------*
+if town < 35.5 or MISSING
+AND study >= 3.5
+AND sect >= 8.5 or MISSING
+AND sec < 87.24 AND sec >= 85.705 or MISSING
+AND scho < 2438.5 or MISSING
+then 
+ Tree Node Identifier   = 261
+ Number of Observations = 461
+ Predicted: final = 4.9696312364
+ 
+*------------------------------------------------------------*
+ Node = 262
+*------------------------------------------------------------*
+if town < 35.5 or MISSING
+AND study >= 3.5
+AND sec < 87.24 AND sec >= 85.705 or MISSING
+AND scho < 2439.5 AND scho >= 2438.5
+then 
+ Tree Node Identifier   = 262
+ Number of Observations = 9
+ Predicted: final = 4.2222222222
+ 
+*------------------------------------------------------------*
+ Node = 263
+*------------------------------------------------------------*
+if town < 35.5 or MISSING
+AND study >= 3.5
+AND sec < 87.24 AND sec >= 85.705 or MISSING
+AND scho >= 2439.5 or MISSING
+then 
+ Tree Node Identifier   = 263
+ Number of Observations = 11
+ Predicted: final = 5
+ 
+*------------------------------------------------------------*
+ Node = 266
+*------------------------------------------------------------*
+if town < 39.5 AND town >= 37.5
+AND study >= 3.5
+AND sec < 90.845 AND sec >= 88.405
+AND scho < 1366
+then 
+ Tree Node Identifier   = 266
+ Number of Observations = 46
+ Predicted: final = 5.5869565217
+ 
+*------------------------------------------------------------*
+ Node = 267
+*------------------------------------------------------------*
+if town < 39.5 AND town >= 37.5
+AND study >= 3.5
+AND sec < 90.845 AND sec >= 88.405
+AND scho < 1576.5 AND scho >= 1366 or MISSING
+then 
+ Tree Node Identifier   = 267
+ Number of Observations = 47
+ Predicted: final = 6
+ 
+*------------------------------------------------------------*
+ Node = 268
+*------------------------------------------------------------*
+if town < 39.5 AND town >= 37.5
+AND study >= 3.5
+AND sec < 89.805 AND sec >= 88.405 or MISSING
+AND scho >= 1576.5
+then 
+ Tree Node Identifier   = 268
+ Number of Observations = 35
+ Predicted: final = 5.2285714286
+ 
+*------------------------------------------------------------*
+ Node = 269
+*------------------------------------------------------------*
+if town < 39.5 AND town >= 37.5
+AND study >= 3.5
+AND sec < 90.845 AND sec >= 89.805
+AND scho >= 1576.5
+then 
+ Tree Node Identifier   = 269
+ Number of Observations = 29
+ Predicted: final = 5.7931034483
+ 
+*------------------------------------------------------------*
+ Node = 270
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sec >= 94.1 or MISSING
+AND nat < 11.5
+then 
+ Tree Node Identifier   = 270
+ Number of Observations = 33
+ Predicted: final = 5.9090909091
+ 
+*------------------------------------------------------------*
+ Node = 272
+*------------------------------------------------------------*
+if town < 37.5 or MISSING
+AND study >= 3.5
+AND sect < 8.5
+AND sec < 92.42 AND sec >= 90.845 or MISSING
+then 
+ Tree Node Identifier   = 272
+ Number of Observations = 102
+ Predicted: final = 5.2254901961
+ 
+*------------------------------------------------------------*
+ Node = 273
+*------------------------------------------------------------*
+if town < 37.5 or MISSING
+AND study >= 3.5
+AND sect >= 8.5 or MISSING
+AND sec < 92.42 AND sec >= 90.845 or MISSING
+then 
+ Tree Node Identifier   = 273
+ Number of Observations = 505
+ Predicted: final = 5.4059405941
+ 
+*------------------------------------------------------------*
+ Node = 274
+*------------------------------------------------------------*
+if town < 37.5 or MISSING
+AND study >= 3.5
+AND sect < 8.5
+AND sec < 93.5 AND sec >= 92.42
+then 
+ Tree Node Identifier   = 274
+ Number of Observations = 57
+ Predicted: final = 5.3684210526
+ 
+*------------------------------------------------------------*
+ Node = 275
+*------------------------------------------------------------*
+if town < 37.5 or MISSING
+AND study >= 3.5
+AND sect >= 8.5 or MISSING
+AND sec < 93.5 AND sec >= 92.42
+then 
+ Tree Node Identifier   = 275
+ Number of Observations = 306
+ Predicted: final = 5.6176470588
+ 
+*------------------------------------------------------------*
+ Node = 278
+*------------------------------------------------------------*
+if study >= 3.5
+AND sect >= 8.5 or MISSING
+AND sec < 94.805 AND sec >= 93.5
+AND scho < 1946.5 or MISSING
+then 
+ Tree Node Identifier   = 278
+ Number of Observations = 247
+ Predicted: final = 5.8461538462
+ 
+*------------------------------------------------------------*
+ Node = 279
+*------------------------------------------------------------*
+if study >= 3.5
+AND sect >= 8.5 or MISSING
+AND sec < 94.805 AND sec >= 93.5
+AND scho >= 1946.5
+then 
+ Tree Node Identifier   = 279
+ Number of Observations = 90
+ Predicted: final = 5.5888888889
+ 
+*------------------------------------------------------------*
+ Node = 282
+*------------------------------------------------------------*
+if study < 2.5
+AND sec < 59.185 AND sec >= 56.925
+then 
+ Tree Node Identifier   = 282
+ Number of Observations = 90
+ Predicted: final = 2.8111111111
+ 
+*------------------------------------------------------------*
+ Node = 283
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sec < 59.185 AND sec >= 56.925
+then 
+ Tree Node Identifier   = 283
+ Number of Observations = 524
+ Predicted: final = 3
+ 
+*------------------------------------------------------------*
+ Node = 284
+*------------------------------------------------------------*
+if study < 2.5
+AND sec < 63.05 AND sec >= 59.185 or MISSING
+then 
+ Tree Node Identifier   = 284
+ Number of Observations = 381
+ Predicted: final = 3.0524934383
+ 
+*------------------------------------------------------------*
+ Node = 286
+*------------------------------------------------------------*
+if town < 20.5
+AND study >= 3.5
+AND sec < 63.05 AND sec >= 56.925 or MISSING
+then 
+ Tree Node Identifier   = 286
+ Number of Observations = 56
+ Predicted: final = 3.375
+ 
+*------------------------------------------------------------*
+ Node = 287
+*------------------------------------------------------------*
+if town < 23.5 AND town >= 20.5 or MISSING
+AND study >= 3.5
+AND sec < 63.05 AND sec >= 56.925 or MISSING
+then 
+ Tree Node Identifier   = 287
+ Number of Observations = 67
+ Predicted: final = 3
+ 
+*------------------------------------------------------------*
+ Node = 288
+*------------------------------------------------------------*
+if town < 27.5 AND town >= 23.5
+AND study >= 3.5
+AND sec < 63.05 AND sec >= 56.925 or MISSING
+then 
+ Tree Node Identifier   = 288
+ Number of Observations = 14
+ Predicted: final = 3.9285714286
+ 
+*------------------------------------------------------------*
+ Node = 289
+*------------------------------------------------------------*
+if town >= 27.5 or MISSING
+AND study >= 3.5
+AND sec < 63.05 AND sec >= 56.925 or MISSING
+then 
+ Tree Node Identifier   = 289
+ Number of Observations = 345
+ Predicted: final = 3.3768115942
+ 
+*------------------------------------------------------------*
+ Node = 292
+*------------------------------------------------------------*
+if study < 4.5 AND study >= 2.5 or MISSING
+AND sec < 71.305 AND sec >= 69.27 or MISSING
+AND scho < 2071 or MISSING
+then 
+ Tree Node Identifier   = 292
+ Number of Observations = 3043
+ Predicted: final = 4.0134735458
+ 
+*------------------------------------------------------------*
+ Node = 293
+*------------------------------------------------------------*
+if study < 4.5 AND study >= 2.5 or MISSING
+AND sec < 71.305 AND sec >= 69.27 or MISSING
+AND scho >= 2071
+then 
+ Tree Node Identifier   = 293
+ Number of Observations = 635
+ Predicted: final = 3.9307086614
+ 
+*------------------------------------------------------------*
+ Node = 294
+*------------------------------------------------------------*
+if town < 35.5 AND town >= 33.5
+AND study < 4.5 AND study >= 2.5 or MISSING
+AND sec < 72.515 AND sec >= 71.305
+then 
+ Tree Node Identifier   = 294
+ Number of Observations = 342
+ Predicted: final = 4.2456140351
+ 
+*------------------------------------------------------------*
+ Node = 295
+*------------------------------------------------------------*
+if town >= 35.5 or MISSING
+AND study < 4.5 AND study >= 2.5 or MISSING
+AND sec < 72.515 AND sec >= 71.305
+then 
+ Tree Node Identifier   = 295
+ Number of Observations = 1138
+ Predicted: final = 4.0922671353
+ 
+*------------------------------------------------------------*
+ Node = 298
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sect >= 8.5
+AND sec < 75.415 AND sec >= 74.49
+then 
+ Tree Node Identifier   = 298
+ Number of Observations = 269
+ Predicted: final = 4.1858736059
+ 
+*------------------------------------------------------------*
+ Node = 299
+*------------------------------------------------------------*
+if study < 4.5 AND study >= 3.5
+AND sect >= 8.5
+AND sec < 75.415 AND sec >= 74.49
+then 
+ Tree Node Identifier   = 299
+ Number of Observations = 24
+ Predicted: final = 4.5
+ 
+*------------------------------------------------------------*
+ Node = 300
+*------------------------------------------------------------*
+if study < 4.5 AND study >= 2.5 or MISSING
+AND sect < 8.5 or MISSING
+AND sec < 76.965 AND sec >= 75.415 or MISSING
+AND scho < 66.5
+then 
+ Tree Node Identifier   = 300
+ Number of Observations = 93
+ Predicted: final = 4.7204301075
+ 
+*------------------------------------------------------------*
+ Node = 301
+*------------------------------------------------------------*
+if study < 4.5 AND study >= 2.5 or MISSING
+AND sect >= 8.5
+AND sec < 76.965 AND sec >= 75.415 or MISSING
+AND scho < 66.5
+then 
+ Tree Node Identifier   = 301
+ Number of Observations = 8
+ Predicted: final = 4
+ 
+*------------------------------------------------------------*
+ Node = 302
+*------------------------------------------------------------*
+if town < 36.5 AND town >= 32.5 or MISSING
+AND study < 2.5
+AND sec < 82.745 AND sec >= 80.305
+AND scho >= 1976
+then 
+ Tree Node Identifier   = 302
+ Number of Observations = 29
+ Predicted: final = 4
+ 
+*------------------------------------------------------------*
+ Node = 303
+*------------------------------------------------------------*
+if town >= 36.5
+AND study < 2.5
+AND sec < 82.745 AND sec >= 80.305
+AND scho >= 1976
+then 
+ Tree Node Identifier   = 303
+ Number of Observations = 19
+ Predicted: final = 4.4210526316
+ 
+*------------------------------------------------------------*
+ Node = 304
+*------------------------------------------------------------*
+if town < 32.5
+AND study < 2.5
+AND sec < 85.705 AND sec >= 82.745 or MISSING
+AND scho >= 1994.5
+then 
+ Tree Node Identifier   = 304
+ Number of Observations = 15
+ Predicted: final = 4.6666666667
+ 
+*------------------------------------------------------------*
+ Node = 305
+*------------------------------------------------------------*
+if town < 35.5 AND town >= 32.5 or MISSING
+AND study < 2.5
+AND sec < 85.705 AND sec >= 82.745 or MISSING
+AND scho >= 1994.5
+then 
+ Tree Node Identifier   = 305
+ Number of Observations = 20
+ Predicted: final = 4.1
+ 
+*------------------------------------------------------------*
+ Node = 306
+*------------------------------------------------------------*
+if town < 31.5
+AND study < 4.5 AND study >= 2.5 or MISSING
+AND sect < 8.5 or MISSING
+AND sec < 84.525 AND sec >= 82.745 or MISSING
+then 
+ Tree Node Identifier   = 306
+ Number of Observations = 1259
+ Predicted: final = 4.9968228753
+ 
+*------------------------------------------------------------*
+ Node = 307
+*------------------------------------------------------------*
+if town >= 31.5 or MISSING
+AND study < 4.5 AND study >= 2.5 or MISSING
+AND sect < 8.5 or MISSING
+AND sec < 84.525 AND sec >= 82.745 or MISSING
+then 
+ Tree Node Identifier   = 307
+ Number of Observations = 2657
+ Predicted: final = 5.0447873542
+ 
+*------------------------------------------------------------*
+ Node = 308
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sec < 95.43 AND sec >= 94.1
+AND nat >= 11.5 or MISSING
+then 
+ Tree Node Identifier   = 308
+ Number of Observations = 3237
+ Predicted: final = 5.9904232314
+ 
+*------------------------------------------------------------*
+ Node = 310
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sec < 61.13 AND sec >= 59.185
+then 
+ Tree Node Identifier   = 310
+ Number of Observations = 1003
+ Predicted: final = 3.1326021934
+ 
+*------------------------------------------------------------*
+ Node = 311
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sec < 63.05 AND sec >= 61.13 or MISSING
+then 
+ Tree Node Identifier   = 311
+ Number of Observations = 1479
+ Predicted: final = 3.2177146721
+ 
+*------------------------------------------------------------*
+ Node = 312
+*------------------------------------------------------------*
+if town < 31.5
+AND study < 4.5 AND study >= 2.5 or MISSING
+AND sect < 8.5 or MISSING
+AND sec < 74.49 AND sec >= 72.515 or MISSING
+AND scho < 1357.5
+then 
+ Tree Node Identifier   = 312
+ Number of Observations = 551
+ Predicted: final = 4.2359346642
+ 
+*------------------------------------------------------------*
+ Node = 313
+*------------------------------------------------------------*
+if town < 31.5
+AND study < 4.5 AND study >= 2.5 or MISSING
+AND sect < 8.5 or MISSING
+AND sec < 74.49 AND sec >= 72.515 or MISSING
+AND scho >= 1357.5 or MISSING
+then 
+ Tree Node Identifier   = 313
+ Number of Observations = 698
+ Predicted: final = 4.1045845272
+ 
+*------------------------------------------------------------*
+ Node = 314
+*------------------------------------------------------------*
+if town < 35.5 AND town >= 31.5
+AND study < 4.5 AND study >= 2.5 or MISSING
+AND sect < 8.5 or MISSING
+AND sec < 74.49 AND sec >= 72.515 or MISSING
+then 
+ Tree Node Identifier   = 314
+ Number of Observations = 675
+ Predicted: final = 4.322962963
+ 
+*------------------------------------------------------------*
+ Node = 315
+*------------------------------------------------------------*
+if town >= 35.5 or MISSING
+AND study < 4.5 AND study >= 2.5 or MISSING
+AND sect < 8.5 or MISSING
+AND sec < 74.49 AND sec >= 72.515 or MISSING
+then 
+ Tree Node Identifier   = 315
+ Number of Observations = 1660
+ Predicted: final = 4.2090361446
+ 
+*------------------------------------------------------------*
+ Node = 318
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sect < 8.5 or MISSING
+AND sec >= 95.43 or MISSING
+AND nat >= 11.5 or MISSING
+then 
+ Tree Node Identifier   = 318
+ Number of Observations = 10997
+ Predicted: final = 5.9979994544
+ 
+*------------------------------------------------------------*
+ Node = 319
+*------------------------------------------------------------*
+if study < 3.5 AND study >= 2.5 or MISSING
+AND sect >= 8.5
+AND sec >= 95.43 or MISSING
+AND nat >= 11.5 or MISSING
+then 
+ Tree Node Identifier   = 319
+ Number of Observations = 161
+ Predicted: final = 5.9751552795
+ 

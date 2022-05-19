@@ -1,0 +1,81 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Variable Summary
+
+          Measurement    Frequency
+ Role        Level         Count
+
+TARGET     INTERVAL          1    
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+
+
+
+
+
+
+Fit Statistics
+Model Selection based on Valid: Average Squared Error (_VASE_)
+
+                                       Valid:     Train:
+                                      Average    Average
+Selected    Model        Model        Squared    Squared
+ Model      Node      Description      Error      Error
+
+   Y        Tree     Decision Tree    0.15302    0.15075
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+
+
+
+
+
+
+Fit Statistics Table
+Target: final
+
+Data Role=Train
+
+Statistics                                                Tree
+
+Train: Average Squared Error                              0.15
+Selection Criterion: Valid: Average Squared Error         0.15
+Train: Total Degrees of Freedom                      105193.00
+Train: Divisor for ASE                               105193.00
+Train: Maximum Absolute Error                             2.94
+Train: Sum of Frequencies                            105193.00
+Train: Root Average Squared Error                         0.39
+Train: Sum of Squared Errors                          15857.79
+
+
+Data Role=Valid
+
+           Statistics                    Tree
+
+Valid: Average Squared Error             0.15
+Valid: Divisor for VASE              35064.00
+Valid: Maximum Absolute Error            2.87
+Valid: Sum of Frequencies            35064.00
+Valid: Root Average Squared Error        0.39
+Valid: Sum of Squared Errors          5365.40
+
+
+Data Role=Test
+
+           Statistics                   Tree
+
+Test: Average Squared Error             0.15
+Test: Divisor for TASE              35064.00
+Test: Maximum Absolute Error            2.87
+Test: Sum of Frequencies            35064.00
+Test: Root Average Squared Error        0.39
+Test: Sum of Squared Errors          5317.67
+Test: Sum of Weights Times Freqs    35064.00

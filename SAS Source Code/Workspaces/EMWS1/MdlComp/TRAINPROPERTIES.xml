@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?><_ROOT_  NumberOfReportedLevels="1E-6" NormalizeReportingVariables="Y" DecileBin="20" LiftEpsilon="1E-6"
+ ProfitEpsilon="1E-6" RoiEpsilon="1E-6" ScoreDistBin="20" RocChart="Y" RocEpsilon="0.01"
+ AssessAllTargetLevels="N" SelectionData="DEFAULT" HPCriteria="DEFAULT" intervalViyaCriteria="DEFAULT"
+ classViyaCriteria="DEFAULT" SelectionTable="TRAIN" SelectionCriteria="DEFAULT" SelectionDepth="10"
+ NumberofBins="20" RecomputeAssess="N" TargetName="final" ModelId="Tree" ModelDescription="Decision Tree"
+ ModelCriteria="Valid: Average Squared Error" ForceRun="N" RunAction="Train" Component="ModelCompare"
+ RawCreateTime="1955188115.9" CreateTime="15DEC2021:11:48:36" RunId="590552b8-5b93-44b0-8fbc-d68e3120aab6"
+ StatisticUsed="_VASE_" TargetLabel="" RawLastTimeRun="1955188152.9" RawRunTime="3.4590001106"
+ LastTimeRun="15DEC2021:11:49:13" RunTime="0 Hr. 0 Min. 3.46 Sec.">
+<VARIABLEPROPERTIES/>
+<FILEPROPERTIES/>
+</_ROOT_>
